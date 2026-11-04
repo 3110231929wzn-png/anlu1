@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "old": {
+    "lut": 10892,
+    "reg": 7062,
+    "bram": 39,
+    "dsp": 13,
+    "pll": 3
+  },
+  "new": {
+    "lut": 10883,
+    "reg": 7062,
+    "bram": 39,
+    "dsp": 13,
+    "pll": 3
+  },
+  "delta": {
+    "lut": -9,
+    "reg": 0,
+    "bram": 0,
+    "dsp": 0,
+    "pll": 0
+  },
+  "warning_counts_previous": {
+    "HDL-5007": 17,
+    "HDL-5317": 3,
+    "HDL-5001": 4,
+    "SYN-5013": 2,
+    "SYN-5025": 3,
+    "SYN-5011": 12,
+    "SYN-6577": 1,
+    "SYN-6562": 10
+  },
+  "warning_counts_candidate": {
+    "HDL-5007": 17,
+    "HDL-5317": 3,
+    "HDL-5001": 4,
+    "SYN-5013": 2,
+    "SYN-5025": 3,
+    "SYN-5011": 12,
+    "SYN-6577": 1,
+    "SYN-6562": 10
+  },
+  "mapped_netlist_identical_except_timestamp": false,
+  "changed_product_files": [
+    "src\\user_source\\hdl_source\\transition\\frame_wipe_read.v"
+  ],
+  "source_change_only_approved_expression": true,
+  "binary_equivalence_passed": true,
+  "four_state_equivalence": false
+}

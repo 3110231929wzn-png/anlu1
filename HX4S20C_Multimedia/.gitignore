@@ -1,0 +1,21 @@
+# Local tools, generated databases, logs and simulation caches
+build/
+*_Runs/
+*.db
+*.dmp
+*.dump
+*.log
+*.jou
+*.rpt
+*.vcd
+*.wlf
+*.bak
+__pycache__/
+*.pyc
+modelsim.ini
+transcript
+work/
+.env
+.env.*
+*.pem
+*.key

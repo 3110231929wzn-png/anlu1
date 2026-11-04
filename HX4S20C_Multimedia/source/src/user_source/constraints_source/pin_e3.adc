@@ -1,0 +1,2 @@
+# E3 additive SW4 binding; baseline constraints unchanged.
+set_pin_assignment { sw_e3 } { LOCATION = C5; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }

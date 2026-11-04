@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "timing_status_ns": {
+    "SWNS": 0.154,
+    "STNS": 0.0,
+    "HWNS": 0.003,
+    "HTNS": 0.0
+  },
+  "minimum_reported_slack_ns": {
+    "setup": 0.154,
+    "hold": 0.022,
+    "recovery": 0.755,
+    "removal": 0.003
+  },
+  "reported_path_counts": {
+    "setup": 3277,
+    "removal": 1511,
+    "hold": 2049,
+    "recovery": 318
+  },
+  "coverage_percent": 99.92,
+  "timing_check_counts": {
+    "no clock": 0,
+    "clock definition": 0,
+    "dummy node": 3,
+    "invalid constraint": 0,
+    "pll/clock buffer clock constraints": 0,
+    "combinational loops": 0,
+    "soft fifo timing exception constraints": 0,
+    "no path constraints": 0,
+    "shadowed/ignored timing exception constraints": 0,
+    "no input delay": 10,
+    "no output delay": 23,
+    "partial input delay": 0,
+    "partial output delay": 0,
+    "abnormal input delay": 0
+  },
+  "baseline_counts": {
+    "no clock": 0,
+    "clock definition": 0,
+    "dummy node": 3,
+    "invalid constraint": 0,
+    "pll/clock buffer clock constraints": 0,
+    "combinational loops": 0,
+    "soft fifo timing exception constraints": 0,
+    "no path constraints": 0,
+    "shadowed/ignored timing exception constraints": 0,
+    "no input delay": 10,
+    "no output delay": 23,
+    "partial input delay": 0,
+    "partial output delay": 0,
+    "abnormal input delay": 0
+  },
+  "both_corners_and_max_min_required": true,
+  "reset_boundary_audit_passed": true
+}

@@ -1,0 +1,11 @@
+--- 95bde78/src/user_source/hdl_source/transition/frame_wipe_read.v
++++ candidate/src/user_source/hdl_source/transition/frame_wipe_read.v
+@@ -126,7 +126,7 @@
+     // another 256-word write burst (128 video clocks at the 2:1 clock ratio).
+     // Only active frames request priority; IDLE/DONE/ACK must not block writes.
+     assign O_rd_urgent = !rst && (state!=IDLE && state!=DONE && state!=ACK) &&
+-                         (wrusedw <= 10'd256);
++                         (!wrusedw[9] && (!wrusedw[8] || !(|wrusedw[7:0])));
+     assign read_finish = (state==DONE);
+ 
+     always @(posedge mem_clk or posedge rst) begin

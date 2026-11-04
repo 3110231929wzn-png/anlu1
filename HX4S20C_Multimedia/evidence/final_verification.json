@@ -1,0 +1,23 @@
+{
+  "baseline": "95bde78a7889cfcbcd258a186c1bec0d67973ced",
+  "source_fingerprint_sha256": "a170c23e0432a07fb243b2218672585e531d7b7551780b39b48e6047dba082aa",
+  "only_approved_RTL_change": true,
+  "protected_historical_files_verified": 476,
+  "original_repository_clean": true,
+  "directed_check": true,
+  "full_chain_simulations_run": 0,
+  "synthesis_attempts": 1,
+  "physical_attempts": 1,
+  "physical_completed": true,
+  "STA_attempts": 1,
+  "STA_passed": true,
+  "bitgen_attempts": 1,
+  "bit": {
+    "file": "E3_95bde78_lowwater_bypass_TD621_20261101.bit",
+    "bytes": 629624,
+    "sha256": "737d2c3a9ba63fa15449b9256afa27b9fd83f5d223469bae72cd3c4ef31dc7d0",
+    "source_fingerprint_sha256": "a170c23e0432a07fb243b2218672585e531d7b7551780b39b48e6047dba082aa",
+    "routed_db_sha256": "aec676befe182c6699e207b52417e24b147877d7c9039c350ef22aa1a4ce0447"
+  },
+  "dump_signature": []
+}
